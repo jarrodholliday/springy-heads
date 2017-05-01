@@ -47,7 +47,7 @@ public interface ChatHeadManager<T extends Serializable> {
     /**
      * Should be called when measuring of the container is done.
      * Typically called from onMeasure or onLayout
-     * Only when {@link ChatHeadContainer#getContainerHeight()} && {@link ChatHeadContainer#getContainerWidth()} returns a positive value will arrangements start working
+     * Only when {@link ChatHeadContainer getContainerHeight()} and {@link ChatHeadContainer getContainerWidth()} returns a positive value will arrangements start working
      *
      * @param height
      * @param width
